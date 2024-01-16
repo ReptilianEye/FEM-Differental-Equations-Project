@@ -1,7 +1,5 @@
 
-# Rozwiązanie równania różniczkowego drugiego rzędu metodą elementów skończonych
---------
-<h2 align="center"> Równanie: </h2>
+
 
 \[ -\left(E(x) \cdot u^{\prime}(x)\right)^{\prime}=0 \]
 
@@ -9,7 +7,7 @@
 
 \[ E(x)= \begin{cases}2 & \text { dla } x \in[0,1] \\ 6 & \text { dla } x \in(1,2]\end{cases} \]
 
-<h2 align="center"> Rozwiązanie: </h2>
+
 
 \[ -E^{\prime}(x) \cdot u^{\prime}(x)-E(x) \cdot u^{\prime \prime}(x)=0 \]
 
@@ -27,7 +25,7 @@
 
 \[ -\int_0^2 E^{\prime} w^{\prime} \varphi d x-\int_0^2 E w^{\prime \prime} \varphi d x=0 \]
 
-<h6 align="center"> Ponieważ szukamy rozwiązania w przestrzeni, w której nie ma drugiej pochodnej, musimy się jej pozbyć. </h6>
+
 
 \[ -\int_0^2 E w^{\prime \prime} \varphi d x=\left|\begin{array}{ll}
 f=E \varphi & y^{\prime}=w^{\prime \prime} \\
