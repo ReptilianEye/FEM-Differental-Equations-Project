@@ -78,4 +78,4 @@ def solve(n):
     return x, y
 
 
-solve(100)
+solve(1000)
