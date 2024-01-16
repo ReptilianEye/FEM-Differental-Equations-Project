@@ -3,8 +3,9 @@
 --------
 <h2 align="center"> Równanie: </h2>
 
+
+$ -\left(E(x) \cdot u^{\prime}(x)\right)^{\prime}=0 \\ $
 ``` math
- -\left(E(x) \cdot u^{\prime}(x)\right)^{\prime}=0 \\
 
  -\left(E(x) \cdot u^{\prime}(x)\right)^{\prime}=0 \\
 
