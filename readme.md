@@ -4,15 +4,16 @@
 <h2 align="center"> Równanie: </h2>
 
 ``` math
-\ -\left(E(x) \cdot u^{\prime}(x)\right)^{\prime}=0
+ -\left(E(x) \cdot u^{\prime}(x)\right)^{\prime}=0
+
+
+ -\left(E(x) \cdot u^{\prime}(x)\right)^{\prime}=0 \\
+
+ \quad \quad \Omega=(0,2) \quad u(2)=3 \quad  u^{\prime}(0)+u(0)=10 \\
+
+ E(x)= \begin{cases}2 & \text { dla } x \in[0,1] \\ 6 & \text { dla } x \in(1,2]\end{cases} \\
+
 ```
-
-\[ -\left(E(x) \cdot u^{\prime}(x)\right)^{\prime}=0 \]
-
-\[ \quad \quad \Omega=(0,2) \quad u(2)=3 \quad  u^{\prime}(0)+u(0)=10\]
-
-\[ E(x)= \begin{cases}2 & \text { dla } x \in[0,1] \\ 6 & \text { dla } x \in(1,2]\end{cases} \]
-
 <h2 align="center"> Rozwiązanie: </h2>
 
 \[ -E^{\prime}(x) \cdot u^{\prime}(x)-E(x) \cdot u^{\prime \prime}(x)=0 \]
