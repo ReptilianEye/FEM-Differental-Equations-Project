@@ -8,10 +8,6 @@ def E_main(x):
         return 2
     elif 1 < x <= 2:
         return 6
-    # if 0 <= x <= 1:
-    #     return 3
-    # elif 1 < x <= 2:
-    #     return 5
 
 
 def e(i, x):
@@ -31,14 +27,13 @@ def e_prim(i, x):
 
 
 def L(i):
-    return -14 * e(i, 0)
+    return -14 * e(i, 0)  # -7 * E_main(0) * e_prim(i, 0)
 
 
 def B(i, j, s, k):
-    calka = quad(lambda x: E_main(x) * e_prim(i, x) * e_prim(j, x), s, k)[0]
-    # print(s, k, calka)
-    reszta = 2*e(i, 0)*e(j, 0)
-    return calka - reszta
+    interior = quad(lambda x: E_main(x) * e_prim(i, x) * e_prim(j, x), s, k)[0]
+    rest = 2*e(i, 0)*e(j, 0)  # E_main(0)*e(i, 0)*e(j, 0)
+    return interior - rest
 
 
 def create_Lmat(e_range):
@@ -67,7 +62,6 @@ def solve(n):
     elements_count = len(e_range)
 
     x = [h*i for i in e_range]
-    # create subplots for each n
 
     B_matrix = create_Bmat(e_range)
     L_vector = create_Lmat(e_range)
