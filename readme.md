@@ -8,7 +8,7 @@ $$
  -\left(E(x) \cdot u^{\prime}(x)\right)^{\prime}=0 
 $$
 
-</br>
+<!-- </br> -->
 
 ``` math
  \quad \quad \Omega=(0,2) \quad u(2)=3 \quad  u^{\prime}(0)+u(0)=10 
