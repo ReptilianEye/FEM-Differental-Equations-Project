@@ -8,8 +8,6 @@ $$ -\left(E(x) \cdot u^{\prime}(x)\right)^{\prime}=0 $$
 
 $$ \quad \quad \Omega=(0,2) \quad u(2)=3 \quad  u^{\prime}(0)+u(0)=10 $$
 
-$$ E(x)= \begin{cases}2 & \text { dla } x \in[0,1] \\ 6 & \text { dla } x \in(1,2]\end{cases}  $$
-
 ``` math
 E(x)= \begin{cases}2 & \text { dla } x \in[0,1] \\ 6 & \text { dla } x \in(1,2]\end{cases}
 ```
@@ -42,4 +40,6 @@ $$ =\underbrace{-E(2) \varphi(2) w^{\prime}(2)}_{=0}+E(0) \varphi(0) w^{\prime}(
 
 $$ -\int_0^2 E^{\prime} \varphi w^{\prime} d x+\int_0^2 E^{\prime} \varphi w^{\prime} d x+\int_0^2 E \varphi^{\prime} w^{\prime} d x-E(0) \varphi(0) w^{\prime}(0)= -7 E(0) \varphi(0) $$
 
-$$ \underbrace{\int_0^2 E \varphi^{\prime} w^{\prime} d x-E(0) \varphi(0) w^{\prime}(0)}_{B(w, \varphi)}=\underbrace{-7 E(0) \varphi(0)}_{L(\varphi)} $$
+``` math
+\underbrace{\int_0^2 E \varphi^{\prime} w^{\prime} d x-E(0) \varphi(0) w^{\prime}(0)}_{B(w, \varphi)}=\underbrace{-7 E(0) \varphi(0)}_{L(\varphi)} 
+```
