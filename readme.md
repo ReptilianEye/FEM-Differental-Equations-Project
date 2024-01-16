@@ -4,9 +4,9 @@
 <h2 align="center"> Równanie: </h2>
 
 
-``` math
+$$
  -\left(E(x) \cdot u^{\prime}(x)\right)^{\prime}=0 
-```
+$$
 
 </br>
 
