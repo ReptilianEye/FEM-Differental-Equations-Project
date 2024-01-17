@@ -16,9 +16,8 @@ E(x)= \begin{cases}2 & \text { dla } x \in[0,1] \\ 6 & \text { dla } x \in(1,2]\
 $$ -E^{\prime}(x) \cdot u^{\prime}(x)-E(x) \cdot u^{\prime \prime}(x)=0 $$
 
 ``` math
-u=\tilde{u}+w  \quad w \in V= \{ f \in H^1, f(2)=0 \}
+u=\tilde{u}+w  \quad w \in V= \{f: f \in H^1, f(2)=0 \}
 ```
-<!-- $$ u=\tilde{u}+w  \quad w \in V= \{ f \in H^1, f(2)=0 \}  $$ -->
 
 $$  w(2)=0 \quad \tilde{u}(2)=3 \Rightarrow \tilde{u} \equiv 3  $$
 
