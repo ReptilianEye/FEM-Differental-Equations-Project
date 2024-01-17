@@ -42,10 +42,10 @@ $$ =\underbrace{-E(2) \varphi(2) w^{\prime}(2)}_{=0}+E(0) \varphi(0) w^{\prime}(
 
 <h6 align="center"> Wracamy do głównego równania: </h6>
 
-$$ -\bcancel{\int_0^2 E^{\prime} \varphi w^{\prime} d x} +\bcancel{\int_0^2 E^{\prime} \varphi w^{\prime} d x}+\int_0^2 E \varphi^{\prime} w^{\prime} d x-E(0) \varphi(0) w^{\prime}(0)= -7 E(0) \varphi(0) $$
+$$ -\bcancel{\int_0^2 E^{\prime} \varphi w^{\prime} d x} +\bcancel{\int_0^2 E^{\prime} \varphi w^{\prime} d x}+\int_0^2 E \varphi^{\prime} w^{\prime} d x-E(0) \varphi(0) w(0)= -7 E(0) \varphi(0) $$
 
 ``` math
-\underbrace{\int_0^2 E \varphi^{\prime} w^{\prime} d x-E(0) \varphi(0) w^{\prime}(0)}_{B(w, \varphi)}=\underbrace{-7 E(0) \varphi(0)}_{L(\varphi)} 
+\underbrace{\int_0^2 E \varphi^{\prime} w^{\prime} d x-E(0) \varphi(0) w(0)}_{B(w, \varphi)}=\underbrace{-7 E(0) \varphi(0)}_{L(\varphi)} 
 ```
 <h6 align="center"> Będziemy szukali rozwiązania za pomocą następujących funkcji: </h6>
 
