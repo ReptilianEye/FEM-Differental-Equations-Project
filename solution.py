@@ -68,8 +68,12 @@ def solve(n):
     w = np.linalg.solve(B_matrix, L_vector)
     u = w + 3
     plt.plot(x, u)
+    plt.savefig(f'./img/solution{n}')
     plt.show()
     return x, u
 
 
-solve(100)
+# solve(100)
+# solve(250)
+# solve(500)
+solve(1000)

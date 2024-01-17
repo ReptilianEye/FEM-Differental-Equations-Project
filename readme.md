@@ -50,7 +50,7 @@ $$ -\bcancel{\int_0^2 E^{\prime} \varphi w^{\prime} d x} +\bcancel{\int_0^2 E^{\
 <h6 align="center"> Będziemy szukali rozwiązania za pomocą następujących funkcji: </h6>
 
 <p align="center">
-    <img src="eFunc.jpg" alt="e functions" width="50%">
+    <img src="/img/eFunc.jpg" alt="e functions" width="50%">
 </p>
 
 <h6 align="center"> Wybieramy takie funkcje e, które zerują się w x=2. Szukana funkcja jest następującą kombinacją liniową:</h6>
@@ -81,3 +81,27 @@ L\left(e_{n-1}\right)
 <h6 align="center"> Ponieważ użyliśmy shift finalne rozwiązanie to:</h6>
 
 $$ u_n=w_n+3 $$
+
+<h2 align="center"> Wyniki: </h2>
+<p align="center">
+    <div style="display: flex;">
+        <div style="flex: 33.33%; padding: 5px;">
+            <img src="/img/solution100.png" alt="Solution 100" width="100%">
+            <p align="center">Rys. 1. Rozwiązanie dla n=100</p>
+        </div>
+        <div style="flex: 33.33%; padding: 5px;">
+            <img src="/img/solution250.png" alt="Solution 250" width="100%">
+            <p align="center">Rys. 2. Rozwiązanie dla n=250</p>
+        </div>
+        <div style="flex: 33.33%; padding: 5px;">
+            <img src="/img/solution500.png" alt="Solution 500" width="100%">
+            <p align="center">Rys. 3. Rozwiązanie dla n=500</p>
+        </div>
+<p align="center">
+    <div style="flex: 33.33%; padding: 5px;">
+        <img src="/img/solution1000.png" alt="Solution 1000" width="100%">
+        <p align="center">Rys. 4. Rozwiązanie dla n=1000</p>
+    </div>
+</p>
+    </div>
+</p>
