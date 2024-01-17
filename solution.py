@@ -27,12 +27,12 @@ def e_prim(i, x):
 
 
 def L(i):
-    return -14 * e(i, 0)  # -7 * E_main(0) * e_prim(i, 0)
+    return -7 * E_main(0) * e(i, 0)
 
 
 def B(i, j, s, k):
     interior = quad(lambda x: E_main(x) * e_prim(i, x) * e_prim(j, x), s, k)[0]
-    rest = 2*e(i, 0)*e(j, 0)  # E_main(0)*e(i, 0)*e(j, 0)
+    rest = E_main(0)*e(i, 0)*e_prim(j, 0)
     return interior - rest
 
 
@@ -57,7 +57,7 @@ def create_Bmat(e_range):
 def solve(n):
     global h
     global elements_count
-    h = 2 / n
+    h = 2 / n  # omega length / n
     e_range = range(0, n+1)
     elements_count = len(e_range)
 
@@ -65,11 +65,11 @@ def solve(n):
 
     B_matrix = create_Bmat(e_range)
     L_vector = create_Lmat(e_range)
-
-    y = np.linalg.solve(B_matrix, L_vector) + 3
-    plt.plot(x, y)
+    w = np.linalg.solve(B_matrix, L_vector)
+    u = w + 3
+    plt.plot(x, u)
     plt.show()
-    return x, y
+    return x, u
 
 
-solve(1000)
+solve(100)
