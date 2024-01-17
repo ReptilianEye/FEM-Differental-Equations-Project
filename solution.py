@@ -32,7 +32,7 @@ def L(i):
 
 def B(i, j, s, k):
     interior = quad(lambda x: E_main(x) * e_prim(i, x) * e_prim(j, x), s, k)[0]
-    rest = E_main(0)*e(i, 0)*e_prim(j, 0)
+    rest = E_main(0)*e(i, 0)*e(j, 0)
     return interior - rest
 
 
@@ -47,10 +47,11 @@ def create_Bmat(e_range):
             if abs(i - j) <= 1:
                 l = min(i, j)
                 r = max(i, j)
+                # # s = 2.*max(0, (l - 1)/elements_count)
                 s = 2.*max(0, (l - 1)/elements_count)
                 k = 2.*min(1, (r + 1)/elements_count)
-                res = B(j, i, s, k)
-                B_matrix[i][j] = res
+            res = B(j, i, s, k)
+            B_matrix[i][j] = res
     return B_matrix
 
 
@@ -58,7 +59,7 @@ def solve(n):
     global h
     global elements_count
     h = 2 / n  # omega length / n
-    e_range = range(0, n+1)
+    e_range = range(0, n)
     elements_count = len(e_range)
 
     x = [h*i for i in e_range]
@@ -68,7 +69,7 @@ def solve(n):
     w = np.linalg.solve(B_matrix, L_vector)
     u = w + 3
     plt.plot(x, u)
-    plt.savefig(f'./img/solution{n}')
+    # plt.savefig(f'./img/solution{n}')
     plt.show()
     return x, u
 
@@ -76,4 +77,5 @@ def solve(n):
 # solve(100)
 # solve(250)
 # solve(500)
-solve(1000)
+# solve(1000)
+# solve(5000)

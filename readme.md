@@ -83,7 +83,8 @@ L\left(e_{n-1}\right)
 $$ u_n=w_n+3 $$
 
 <h2 align="center"> Wyniki: </h2>
-<p align="center">
+<img src="/img/solution1000.png" alt="Solution 1000" width="100%">
+<!-- <p align="center">
     <div style="display: flex;">
         <div style="flex: 33.33%; padding: 5px;">
             <img src="/img/solution100.png" alt="Solution 100" width="100%">
@@ -102,4 +103,4 @@ $$ u_n=w_n+3 $$
             <p align="center">Rys. 4. Rozwiązanie dla n=1000</p>
         </div>
     </div>
-</p>
+</p> -->
