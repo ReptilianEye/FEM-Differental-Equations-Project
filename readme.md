@@ -97,11 +97,9 @@ $$ u_n=w_n+3 $$
             <img src="/img/solution500.png" alt="Solution 500" width="100%">
             <p align="center">Rys. 3. Rozwiązanie dla n=500</p>
         </div>
-<p align="center">
-    <div style="flex: 33.33%; padding: 5px;">
-        <img src="/img/solution1000.png" alt="Solution 1000" width="100%">
-        <p align="center">Rys. 4. Rozwiązanie dla n=1000</p>
-    </div>
-</p>
+        <div style="flex: 33.33%; padding: 5px;">
+            <img src="/img/solution1000.png" alt="Solution 1000" width="100%">
+            <p align="center">Rys. 4. Rozwiązanie dla n=1000</p>
+        </div>
     </div>
 </p>
